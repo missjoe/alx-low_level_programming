@@ -1,15 +1,13 @@
 #include<stdio.h>
-
-int main()
-
+int main(void)
 {
-
-	//string initialization
-	
-char mystr[] = "Programming is like building a multilingual puzzle";
-
-puts(mystr); //writing the string to stdout
-
+	/**
+	 * Author: John Tochi J.
+	 * Description: my first c
+	 */
+char Mystr1 [100] = "#!/bin/bash";
+char Mystr2 [100] = "Programming is like building a multilingual puzzle";
+puts(Mystr1);
+puts(Mystr2); //not specifically adding a newline
 return 0;
-
 }
