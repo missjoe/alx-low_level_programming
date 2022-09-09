@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
-* main -print the string in the put function
+* main - print string in the put funtion
 *
-* Discription: using the main funtion this programs prints the inserted string
+* Description: using the main funtion this programs prints the inserted string
 * Returns: Always 0
 */
 
@@ -10,5 +10,5 @@ int main(void)
 
 {
 puts("Programming is like building a multilingual puzzle");
-return	(0);
-};
+return (0);
+}
