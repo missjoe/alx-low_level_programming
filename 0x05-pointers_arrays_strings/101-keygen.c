@@ -18,7 +18,7 @@ int main(void)
 		i = k = s = 0;
 		while ((2772 - 122) > s)
 		{
-			j = randf() % 62;
+			j = rand() % 62;
 			p[i] = c[j];
 			s += c[j];
 			i++;
@@ -38,4 +38,4 @@ int main(void)
 	p[i] = '\0';
 	printf("%s", p);
 	return (0);
-
+}
