@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _indexof - returns boolean if special character
+ * _indexOf - returns boolean if special character
  * @a: character to return
  * Return: true or false
  */
-int _indexof(char a)
+int _indexOf(char a)
 {
 	int i;
 
