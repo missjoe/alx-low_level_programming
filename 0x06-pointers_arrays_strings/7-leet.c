@@ -6,17 +6,17 @@
  */
 char *leet(char *s)
 {
-	char alphaArr[] = "a4A4e3E3o0O0t7T7l1L1";
+	char alpha[] = "a4A4e3E3o0O0t7T7l1L1";
 	int i;
 	int j;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; alpharArr[j] != '\0'; j++)
+		for (j = 0; alpha[j] != '\0'; j++)
 		{
-			if (s[i] == alphaArr[j])
+			if (s[i] == alpha[j])
 			{
-				s[i] = alphaArr[j + 1];
+				s[i] = alpha[j + 1];
 				break;
 			}
 		}
