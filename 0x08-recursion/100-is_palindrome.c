@@ -25,7 +25,7 @@ int helper2(int i, char *s)
 {
 	if (*s)
 	{
-		if (*s != s[length(s) - 1])
+		if (*s != s[length(s) - i])
 		{
 			return (0);
 		}
@@ -37,7 +37,7 @@ int helper2(int i, char *s)
 	return (1);
 }
 /**
- * is_palindrome - is it pallindrome
+ * is_palindrome - is it paldindrome
  * @s: string to check
  * Return: boolean
  */
