@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
+ginclude <stdlib.h>
 /**
  * str_concat - concates strings
  * @s1: string 1
  * @s2: string 2
  * Return: returns concated string
  */
-char *str_concat(char *s1, char s2)
+char *str_concat(char *s1, char *s2)
 {
 	int i, len1, len2;
 	char *conc;
