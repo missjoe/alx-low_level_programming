@@ -40,6 +40,5 @@ int main(int argc, char *argv[])
 	result = func(arg1, arg2);
 
 	print ("%d\n", result);
-	
 	return (0);
 }
