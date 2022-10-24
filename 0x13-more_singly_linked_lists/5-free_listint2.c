@@ -2,7 +2,7 @@
 /**
  * free_listint2 - frees a list but head is null
  * @head: linked list and head
- *
+ * Return: void
  */
 void free_listint2(listint_t **head)
 {
@@ -10,11 +10,12 @@ void free_listint2(listint_t **head)
 
 	if (head == NULL)
 		return;
-	while (*head != NULL)
+	
+	while (*head)
 	{
 		temp = *head;
-		free(*head);
-		*head = temp->next;
+		*head = (*head)->next;
+		free(temp);
 	}
-	*head = NULL;
+	head = NULL;
 }
