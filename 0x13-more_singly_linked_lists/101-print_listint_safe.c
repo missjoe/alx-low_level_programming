@@ -51,7 +51,7 @@ size_t print_listint_safe(const listint_t *head)
 		while (add->next != NULL)
 		{
 			add = add->next;
-			if (head == add->p)
+			if (head == add->t)
 			{
 				printf("-> [%p] %d\n", (void *)head, head->n);
 				free_list(&hptr);
@@ -62,6 +62,6 @@ size_t print_listint_safe(const listint_t *head)
 		head = head->next;
 		nnodes++;
 	}
-	free_listp(&hptr);
+	free_list(&hptr);
 	return (nnodes);
 }
