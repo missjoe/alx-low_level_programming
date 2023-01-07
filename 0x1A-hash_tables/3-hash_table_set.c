@@ -23,7 +23,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			checker->value = strdup((char *)value);
 			if (!checker->value)
 				return (0);
-			return(1);
+			return (1);
 		}
 		checker = checker->next;
 	}
@@ -41,9 +41,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		free(new->value);
 		free(new);
-		return(0);
+		return (0);
 	}
 	new->next = ht->array[position];
 	ht->array[position] = new;
 	return (1);
-}
